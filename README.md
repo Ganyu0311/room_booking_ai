@@ -71,20 +71,18 @@ student/    Student dashboard and booking statistics
 
 1. Install [XAMPP](https://www.apachefriends.org/) and start **Apache** and **MySQL**.
 2. Clone this repo into `htdocs` using the folder name `room_booking_ai` (the app's links expect that name):
-   ```
+```
    cd C:\xampp\htdocs
    git clone https://github.com/YOUR-USERNAME/smart-room-booking-system.git room_booking_ai
-   ```
+```
 3. Open http://localhost/phpmyadmin, create a database named `room_booking_ai`, and import `database/room_booking_ai.sql`.
 4. Copy `config/config.example.php` to `config/config.php` and edit the values if your setup differs.
 5. Visit http://localhost/room_booking_ai
 
-### Demo accounts
+### Logging in
 
-| Role | Email | Password |
-|---|---|---|
-| Student | student@demo.com | demo1234 |
-| Admin | admin@demo.com | demo1234 |
+Register a new account to use the student features. To try the admin
+features, change that account's `role` to `admin` in the `users` table.
 
 ## Testing
 
