@@ -1,0 +1,12 @@
+# Local settings (database password, URL)
+config/config.php
+
+# QR codes generated at runtime
+qrcodes/*
+!qrcodes/.gitkeep
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
