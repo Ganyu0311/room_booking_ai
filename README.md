@@ -73,7 +73,7 @@ student/    Student dashboard and booking statistics
 2. Clone this repo into `htdocs` using the folder name `room_booking_ai` (the app's links expect that name):
 ```
    cd C:\xampp\htdocs
-   git clone https://github.com/YOUR-USERNAME/smart-room-booking-system.git room_booking_ai
+   git clone https://github.com/arish-tayalan/smart-room-booking-system.git room_booking_ai
 ```
 3. Open http://localhost/phpmyadmin, create a database named `room_booking_ai`, and import `database/room_booking_ai.sql`.
 4. Copy `config/config.example.php` to `config/config.php` and edit the values if your setup differs.
