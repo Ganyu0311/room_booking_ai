@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Exclude the third-party QR library from GitHub language stats
+phpqrcode/** linguist-vendored
